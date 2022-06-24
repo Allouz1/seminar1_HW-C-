@@ -1,14 +1,14 @@
-﻿Console.WriteLine("Введите превое число: ");
-int numberMax = Convert.ToInt32(Console.ReadLine());
+﻿Console.WriteLine("Введите первое число: ");
+int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
-int numberMin = Convert.ToInt32(Console.ReadLine());
-if (numberMax > numberMin)
+int number2 = Convert.ToInt32(Console.ReadLine());
+if (number1 > number2)
 {
-    Console.WriteLine($"Минимальное число:{numberMin}.");
-    Console.WriteLine($"Максимальное число:{numberMax}.");
+    Console.WriteLine($"Минимальное число:{number2}.");
+    Console.WriteLine($"Максимальное число:{number1}.");
 }
 else
 {
-    Console.WriteLine($"Минимальное число:{numberMax}.");
-    Console.WriteLine($"Максимальное число:{numberMin}.");
+    Console.WriteLine($"Минимальное число:{number1}.");
+    Console.WriteLine($"Максимальное число:{number2}.");
 }
